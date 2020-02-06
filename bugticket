@@ -1,0 +1,19 @@
+Reported App - Bug
+**Environment**
+Device and OS: iPhone - latest OS
+Testable App Version: latest version
+Connection: wifi
+Reproducibility Rate: 2 Times
+
+**Steps to reproduce**
+1.	Open the App > Login
+2.	Tap on Report > Fill in the info > Submit
+
+**Expected result**
+After providing a photo/video and adding all the necessary information like a complaint type, address of the incident, license plate and etc. and pressing the submit button I expect to get a message that the report has been submitted.
+
+**Actual result**
+After the report has been filed the Submit button doesn’t do anything and tend to be stuck on loading forever. 
+
+**Solution**
+It could be the connectivity problem to the servers or something wrong with the app itself. 
