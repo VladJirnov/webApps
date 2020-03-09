@@ -1,0 +1,13 @@
+(define palindromic?
+  (lambda (li)
+    (palin-helper li (reverse li) (quotient (length li) 2))))
+
+(define palin-helper
+  (lambda (li rev steps-remaining)
+    (or (zero? steps-remaining)
+        (and (equal? (car li) (car rev))
+             (palin-helper (cdr li) (cdr rev) (sub1 steps-remaining))))))
+
+(define sub1
+  (lambda (n)
+    (- n 1)))
